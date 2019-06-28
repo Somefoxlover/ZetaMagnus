@@ -1,0 +1,101 @@
+/* For the body */
+
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: #20110e;
+}
+
+/* this is basically to keep the content thats in the container class clean*/
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Header stuff*/
+header {
+  background: #a10c0c;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #000000 3px solid;
+}
+/*It's for the links*/
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 15px 0 15px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/*This is for the logo*/
+header #logo {
+  float: left;
+
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+
+}
+
+/* For the further content such as below the header*/
+p, h3{
+  color: #ffffff;
+}
+
+ p .box{
+  float: left;
+  min-height: 400px;
+  background:url("../Images/backg.jpg") no-repeat;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+footer {
+  text-align: center;
+  border-top: #000000 10px solid;
+  margin-top: 50px;
+}
+/*For about us list*/
+li {
+ color: #ffffff;
+}
+
+.box {
+  text-align: right;
+
+
+}
+
+#vid {
+  
+}
